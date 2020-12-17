@@ -2,7 +2,7 @@
 ## Presentation
 My personnal website, made to promote my works.
 
-Next step to improve my site:
+Next steps to improve my site:
 * size of carousels' images on mobile version 
 
 ## Technologies

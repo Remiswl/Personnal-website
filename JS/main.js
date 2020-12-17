@@ -1,5 +1,6 @@
 'use strict';
 
+
 $('.sign').click(changeSign);
 
 function changeSign() {
@@ -7,10 +8,15 @@ function changeSign() {
     	$(this.children[0].children[1].children[0]).removeClass('d-none');
         $(this.children[0].children[1].children[1]).addClass('d-none');
     } else {
-    	$('.fa-plus').removeClass('d-none');
-    	$('.fa-minus').addClass('d-none');
+    	$('.fa-caret-down').removeClass('d-none');
+    	$('.fa-rotate-180').addClass('d-none');
 
         $(this.children[0].children[1].children[0]).addClass('d-none');
         $(this.children[0].children[1].children[1]).removeClass('d-none');
     }
 }
+
+// Close navbar
+$('.navbar-collapse a').click(() => {
+    $('.navbar-collapse').collapse('hide');
+});

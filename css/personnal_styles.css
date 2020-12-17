@@ -1,5 +1,28 @@
+h2, h3 {
+	font-family:"Permanent marker";
+}
+
+h2 {
+	font-size:2em;
+}
+
+h3 {
+	font-size:1.5em;
+}
+
 .fab, .fas {
 	font-size:50px;
+}
+
+/*********************** PROFIL ***********************/
+#profil {
+	background:url("../img/background.jpg");
+	background-size:cover;
+	background-position:center;
+}
+
+#avatar {
+	width:150px;
 }
 
 /********************* COMPETENCES ********************/
@@ -14,7 +37,7 @@
 }
 
 .progress-bar {
-	width:50%;
+	width:100%;
 }
 
 #backEnd {
@@ -52,8 +75,12 @@
 }
 
 /********************* CAROUSEL ***********************/
-#myCarousel img {
+#myCarousel {
 	height: 450px;
+}
+
+#myCarousel img {
+	/**/
 	max-height: 450px;
 	max-width: 100%;
 }
@@ -74,6 +101,11 @@
 	height: 20px;
 	border-radius: 100%;
 	border:1px solid #000000;
+}
+
+/********************** FOOTER ***********************/
+footer .fab {
+	font-size:20px;
 }
 
 /*************** RESPONSIVE DESIGN *******************/

@@ -16,6 +16,7 @@ function changeSign() {
     }
 }
 
+
 // Close navbar
 $('.navbar-collapse a').click(() => {
     $('.navbar-collapse').collapse('hide');

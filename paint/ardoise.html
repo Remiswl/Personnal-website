@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+	    <meta charset="utf-8"/>
+	    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+	    <link rel="stylesheet" href="ardoise.css" type="text/css"/>
+	    <script type="module" src="ardoise.js"></script>
+	    <title>Ardoise magique</title>
+	</head>
+	
+	<body>
+		<main>
+			<h1><i class="fas fa-paint-brush"></i>Ardoise magique</h1>
+			<canvas id="canvas" width="600" height="400"></canvas>
+			
+			<canvas id="colorPalette" width="200" height="200" style="border:1px solid black" class="hide"></canvas>
+			
+			<div id="toolbar">
+			    <ul id"tools">
+			        <label>Outils</label>
+			        <li ><button id="clear"><i class="fas fa-eraser"></i></button></li>
+			    </ul>
+			    
+			    <ul id = "color">
+			        <label>Couleurs</label>
+			        <li class="color" data-color="#000000"></li>
+			        <li class="color" id="brown" data-color="#5C2121"></li>
+			        <li class="color" id="red" data-color="#B9121B"></li>
+			        <li class="color" id="yellow" data-color="#FFBD07"></li>
+			        <li class="color" id="green" data-color="#13B813"></li>
+			        <li class="color" id="light_blue" data-color="#029E9A"></li>
+			        <li class="color" id="blue" data-color="#0378A6"></li>
+			        <li ><button id="displayGradient"><i class="fas fa-eye-dropper"></i></button></li>
+			    </ul>
+			    
+			    <ul id="weight">
+			        <label>Epaisseur</label>
+			        <li class="weight" data-width="1"><button>Fin</button></li>
+			        <li class="weight" data-width="3"><button>Normal</button></li>
+			        <li class="weight" data-width="5"><button>Epais</button></li>
+			    </ul>
+			</div>
+		</main>
+	</body>
+</html>
